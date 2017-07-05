@@ -9,6 +9,7 @@ describe "Creating a new user" do
 
     fill_in "Name", with: "Example User"
     fill_in "Email", with: "user@example.com"
+    fill_in "Username", with: "ExampleMan"
     fill_in "Password", with: "secret"
     fill_in "Confirm Password", with: "secret"
     click_button 'Create Account'
